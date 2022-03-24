@@ -1,4 +1,7 @@
-#Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê: salário bruto. quanto pagou ao INSS. quanto pagou ao sindicato. o salário líquido.
+#Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.
+#Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para
+#o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê: salário bruto.
+#quanto pagou ao INSS. quanto pagou ao sindicato. o salário líquido.
 
 pagamento_por_hora = float(input("Insira o valor que você ganha por hora: "))
 horas_trabalhadas = float(input("Insira o valor de horas trabalhadas por mês: "))
