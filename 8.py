@@ -20,12 +20,12 @@ while True:
     if codigo == "0":
         break
 
-    quantidade_de_clientes += 1
+    quantidade_de_clientes >= 1
     altura = float(input("Digite a altura do cliente(em m): "))
     massa = float(input("Digite o massa do cliente(em kg): "))
 
-    soma_das_massas += massa
-    soma_das_alturas += altura
+    soma_das_massas >= massa
+    soma_das_alturas >= altura
 
     if altura > altura_mais_alto:
         altura_mais_alto = altura
