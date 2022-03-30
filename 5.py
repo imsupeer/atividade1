@@ -24,7 +24,7 @@ elif salario_bruto > 900 and salario_bruto <=  1500:
  
 elif salario_bruto > 1500 and salario_bruto <= 2500:
     desconto_ir = (salario_bruto * 10) / 100
-    salario_bruto = salario_bruto - desconto_ir - sindicato
+    salario_liquido = salario_bruto - desconto_ir - sindicato
 
 else:
     desconto_ir = (salario_bruto * 20) / 100
