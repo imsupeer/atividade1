@@ -15,15 +15,15 @@ tipo_de_combustivel = input("Insira o tipo de combustível:(A-álcool ou G-gasol
 if tipo_de_combustivel == "A":
     preco = quantidade_de_litros * 1.90
     if quantidade_de_litros <= 20:
-        preco = quantidade_de_litros * 1.90 - 3/100
+        preco = quantidade_de_litros * (1.90 - 3/100)
     else:
-        preco = quantidade_de_litros * 1.90 - 5/100
+        preco = quantidade_de_litros * (1.90 - 5/100)
 
 if tipo_de_combustivel == "G":
     preco = quantidade_de_litros * 2.50
     if quantidade_de_litros <= 20:
-        preco = quantidade_de_litros * 2.50 - 4/100
+        preco = quantidade_de_litros * (2.50 - 4/100)
     else:
-        preco = quantidade_de_litros * 2.50 - 6/100 
+        preco = quantidade_de_litros * (2.50 - 6/100) 
 
 print(f"O valor total a ser pago é: R${preco}")
