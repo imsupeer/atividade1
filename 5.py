@@ -31,6 +31,6 @@ else:
     salario_liquido = salario_bruto - desconto_ir -sindicato
 
 print(f"Salário bruto: R${salario_bruto}")
-print(f"FGTS: R$-{fgts}")
-print(f"Sindicato: R$-{sindicato}")
+print(f"FGTS: R${fgts}")
+print(f"Sindicato: R${sindicato}")
 print(f"Salário líquido: R${salario_liquido}")
